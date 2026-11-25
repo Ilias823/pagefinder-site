@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PageFinder Demo Page</title>
+  <meta name="description" content="Page 24 of Jekyll and Hyde, to photograph with PageFinder's built-in demo.">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .demo-page { display: block; width: min(100%, 520px); height: auto; margin: 24px auto; border-radius: 6px; box-shadow: 0 8px 30px rgba(0,0,0,.5); }
+    @media print {
+      header, footer, .no-print { display: none; }
+      body { background: #fff; }
+      main { padding: 0; }
+      .demo-page { width: 100%; max-height: 100vh; object-fit: contain; margin: 0; box-shadow: none; border-radius: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Main">
+      <a class="brand" href="index.html">PageFinder</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+  <main>
+    <div class="no-print">
+      <h1>Try the demo</h1>
+      <p class="lead">PageFinder comes with <em>The Strange Case of Dr. Jekyll and Mr. Hyde</em> built in. Here is page 24 of the printed book.</p>
+      <p>Open the demo book in PageFinder, tap <strong>Find my page</strong>, then photograph this page on your screen or print it. The audiobook plays from the top of the page.</p>
+    </div>
+    <img class="demo-page" src="demo-page-24.jpg" width="1134" height="1728"
+         alt="Page 24 of The Strange Case of Dr. Jekyll and Mr. Hyde, laid out as a printed paperback.">
+    <p class="no-print">The text is in the public domain. The ebook it is laid out from comes from Standard Ebooks.</p>
+  </main>
+  <footer><p>PageFinder for iPhone and iPad</p></footer>
+</body>
+</html>
